@@ -1,3 +1,4 @@
 * Modified httpd Docker Image
+Extend the image by copying required configs into ~/usr/local/apache2/conf/required.conf.d~
 
-Optionally mount config files into ~/usr/local/apache2/conf/conf.d~ to be included.
+Optionally mount config files into ~/usr/local/apache2/conf/conf.d~ to be included at runtime.
